@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+header {
+  background-color: white;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position:fixed;
+  top: 0;
+}
+header h2 {
+  font-size:45px;
+}
+#header-img {
+  margin-left:20px;
+}
+a {
+text-decoration: none;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 30px;
+  color: black;
+  background: gray;
+  padding: 5px;
+}
+#features {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:center;
+  }
+#featuretitle {
+  font-size: 60px
+}
+.f-text {
+  font-size: 20px;
+}
+#video-group {
+  text-align: center;
+}
+#pricing {
+  text-align: center;
+
+}
+
+
+#pricing a {
+ font-size: 40px;
+ text-decoration: none;
+ border: 2px solid black;
+
+
+}
+body { margin-top:200px;
+}
+footer {
+  border-top: 2px solid black;
+  padding-top: 50px;
+}
+#email-sub {
+  text-align:center;
+}
+/** media queries allow for mobile compatibility **/
+@media (max-width: 100px) {  
+  p {
+    font-size: 10px;
+  }
+}
+
